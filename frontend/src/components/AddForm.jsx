@@ -16,6 +16,7 @@ function AddForm({ items, setItems }) {
         })
         .catch((err) => console.error(err));
     } else {
+      // eslint-disable-next-line no-alert
       alert("Enter a correct item");
     }
   };
