@@ -10,7 +10,7 @@ const app = express();
 // use some application-level middlewares
 app.use(
   cors({
-    origin: process.env.VITE_PROD_URL ?? "http://localhost:3000",
+    origin: process.env.VITE_PROD_URL ?? "http://localhost:3000/",
     optionsSuccessStatus: 200,
   })
 );
